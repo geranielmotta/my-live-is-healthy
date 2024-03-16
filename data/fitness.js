@@ -43,7 +43,7 @@ export default [
     id: "1",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRonpSjpGQ2-JD8-XFFD7LYsVSFCOiASj0wSOq1qxNvxGFHe7W6AU1LRAeJ2fOIzYICMGc&usqp=CAU",
-    name: "ABS INICIANTE",
+    name: "ABDOMINAL",
     description: "DESAFIO 7x4",
     exercises: [
       {
@@ -82,7 +82,7 @@ export default [
     id: "2",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1NHvoutGn-Vr_uwVbOOtezhENvx9jhV6pfQ&usqp=CAU",
-    name: "BRAÇOS INICIANTE",
+    name: "BRAÇOS",
     description: "DESAFIO 7x4",
     exercises: [
       {
@@ -134,7 +134,7 @@ export default [
     id: "3",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqCT0tewpNAZ6R9JUoMDHIHGnpE44U2Fl1Zw&usqp=CAU",
-    name: "PEITO INICIANTE",
+    name: "PEITO",
     description: "DESAFIO 7x4",
     exercises: [
       {
@@ -171,6 +171,51 @@ export default [
         id: "26",
         image: "https://media3.popsugar-assets.com/files/thumbor/0Xiqpo7pxrKz5CKcRl7XYrKegko/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2014/02/27/847/n/1922729/1baf9ec0f5ce4ea9_burpee.3.gif",
         name: "BURPEES",
+        sets: 10
+      }
+    ]
+  },
+  {
+    id: "4",
+    image:
+      "https://static.wixstatic.com/media/2edbed_6eb7993a291a4049821980159e9303b1~mv2.webp",
+    name: "PERNAS",
+    description: "DESAFIO 7x4",
+    exercises: [
+      {
+        id: "20",
+        image: "http://www.calistenia.net/wp-content/uploads/2017/09/SIDE-LUNGE-SQUAT.gif",
+        name: "AGACHAMENTO LATERAL",
+        sets: 10,
+      },
+      {
+        id: "21",
+        image: "https://www.calistenia.net/wp-content/uploads/2017/09/STEP-UP-SKIP.gif",
+        name: "AVANÇO AFUNDO",
+        sets: 6,
+      },
+      {
+        id: "22",
+        image: "http://www.calistenia.net/wp-content/uploads/2017/09/GLUTE-BRIDGE.gif",
+        name: "HIP THRUST",
+        sets: 10,
+      },
+      {
+        id: "23",
+        image: "https://www.calistenia.net/wp-content/uploads/2017/09/HIP-DRIVE.gif",
+        name: "LEVANTAMENTO DE QUADRIL",
+        sets: 6,
+      },
+      {
+        id: "25",
+        image: "http://www.calistenia.net/wp-content/uploads/2017/09/CHAIR-SQUAT-JUMP.gif",
+        name: "AGACHAMENTO COM SALTO NA CADEIRA",
+        sets: 12,
+      },
+      {
+        id: "26",
+        image: "http://www.calistenia.net/wp-content/uploads/2017/09/LUNGE-ACROSS.gif",
+        name: "AVANÇO CAMINHANDO",
         sets: 10
       }
     ]
