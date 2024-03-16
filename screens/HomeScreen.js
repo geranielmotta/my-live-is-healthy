@@ -13,7 +13,7 @@ const HomeScreen = () => {
       style={{ marginTop: 20 }}>
       <View style={{ backgroundColor: "#000000d7", paddingTop: 40, paddingHorizontal: 20, height: 160, width: "100%" }}>
         <View style={{flexDirection: "row", alignItems: "center", justifyContent: "space-between", marginBottom: 50}}>
-          <Text style={{ color: "white", fontWeight: "bold", fontSize: 18 }}>SIX PACK IN 30 DAYS</Text>
+          <Text style={{ color: "white", fontWeight: "bold", fontSize: 18 }}>SEIS TREINOS EM 30 DIAS</Text>
 
           {/* Dark Mode  */}
           <TouchableOpacity onPress={() => setShowIcon(!showIcon)}>
@@ -33,13 +33,13 @@ const HomeScreen = () => {
           {/* Second Card  */}
           <View style={styles.shadowCards}>
             <Text style={{ fontWeight: "bold", fontSize: 18 }}>{workout}</Text>
-            <Text>WORKOUTS</Text>
+            <Text>EXERCÍCIOS</Text>
           </View>
 
           {/* Third Card  */}
           <View style={styles.shadowCards}>
             <Text style={{ fontWeight: "bold", fontSize: 18 }}>{minutes}</Text>
-            <Text>MINUTES</Text>
+            <Text>MINUTOS</Text>
           </View>
         </View>
       </View>
