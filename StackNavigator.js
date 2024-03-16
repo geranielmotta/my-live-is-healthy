@@ -3,6 +3,8 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 import HomeScreen from './screens/Home';
 
+import FoodTips from './screens/FoodTips';
+
 import HomeWorkoutsScreen from './screens/Workouts';
 import WorkoutScreen from './screens/Workouts/WorkoutScreen';
 import FitScreen from './screens/Workouts/FitScreen';
@@ -15,6 +17,8 @@ const StackNavigator = () => {
       <Stack.Navigator>
 
       <Stack.Screen options={{headerShown: false}} name="Home" component={HomeScreen} />
+
+      <Stack.Screen options={{headerShown: false}} name="FoodTips" component={FoodTips} />
 
       {/* Workouts */}
         <Stack.Screen options={{headerShown: false}} name="HomeWorkouts" component={HomeWorkoutsScreen} />
