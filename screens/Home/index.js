@@ -7,15 +7,14 @@ import {
   Image,
 } from "react-native";
 
-import { Ionicons } from "@expo/vector-icons";
-import { useContext, useState } from "react";
+
+import { useContext } from "react";
 import { FitnessItems } from "../../Context";
 
 import { useNavigation } from '@react-navigation/native';
 
 
 const WorkoutsScreen = () => {
-  const { calories, minutes, workout } = useContext(FitnessItems);
 
   const navigation = useNavigation();
 
@@ -124,19 +123,3 @@ const WorkoutsScreen = () => {
 };
 
 export default WorkoutsScreen;
-
-const styles = StyleSheet.create({
-  shadowCards: {
-    backgroundColor: "#ffffff",
-    width: "32%",
-    height: 80,
-    borderRadius: 10,
-    alignItems: "center",
-    justifyContent: "center",
-    shadowColor: "#000",
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.25,
-    shadowRadius: 3.84,
-    elevation: 5,
-  },
-});

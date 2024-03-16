@@ -1,49 +1,29 @@
 <div align="center">
   
-  ![GitHub repo size](https://img.shields.io/github/repo-size/geeky-prashant/react-native-fitness-app)
-  ![GitHub stars](https://img.shields.io/github/stars/geeky-prashant/react-native-fitness-app?style=social)
-  ![GitHub forks](https://img.shields.io/github/forks/geeky-prashant/react-native-fitness-app?style=social)
- 
-  <br />
-
-  <h2 align="center">React Native Fitness App</h2>
-
-  In this project, I have created a Fitness App, The project is built using Expo, React Native, and React Native Navigation.
-
-</div>
-
-### Demo Screenshot
-
-![React Native Fitness App Demo](./readme-images/React-Native-Fitness-App.png "Desktop Demo")
 
 ## Get Started
-
-install dev dependencies
+Instalar dependências de desenvolvimento
 
 ### `npm install`
 
 ## Then
 
-Run The App
+Execute o aplicativo
 
 ### `npm start`
 
-Runs your app in development mode.
+Executa seu aplicativo em modo de desenvolvimento.
 
-Open it in the [Expo app](https://expo.io) on your phone to view it. It will reload if you save edits to your files, and you will see build errors and logs in the terminal.
+Abra-o no [aplicativo Expo](https://expo.io) no seu telefone para visualizá-lo. Ele será recarregado se você salvar as edições em seus arquivos e você verá erros de compilação e logs no terminal.
 
 #### `npm run ios`
 
-Like `npm start` / `yarn start`, but also attempts to open your app in the iOS Simulator if you're on a Mac and have it installed.
+Como `npm start` / `yarn start`, mas também tenta abrir seu aplicativo no simulador iOS se você estiver em um Mac e o tiver instalado.
 
 #### `npm run android`
 
-Like `npm start` / `yarn start`, but also attempts to open your app on a connected Android device or emulator. Requires an installation of Android build tools (see [React Native docs](https://facebook.github.io/react-native/docs/getting-started.html) for detailed setup).
-
-### Contact
-
-If you want to contact me you can reach me at [LinkedIn](https://www.linkedin.com/in/geekyprashant/).
+Como `npm start` / `yarn start`, mas também tenta abrir seu aplicativo em um dispositivo ou emulador Android conectado. Requer a instalação de ferramentas de compilação do Android (consulte [documentação do React Native](https://facebook.github.io/react-native/docs/getting-started.html) para configuração detalhada).
 
 ### License
 
-This project is **free to use** and does not contain any license.
+Este projeto é **de uso gratuito** e não contém nenhuma licença.
