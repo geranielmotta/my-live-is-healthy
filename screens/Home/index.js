@@ -96,7 +96,7 @@ const WorkoutsScreen = () => {
       </TouchableOpacity>
 
       <TouchableOpacity
-        onPress={() => navigation.navigate("HomeWorkouts")}
+        onPress={() => navigation.navigate("MyResults")}
         style={{marginTop: 20, marginHorizontal: 20, marginBottom: 20}}
       >
         <View>

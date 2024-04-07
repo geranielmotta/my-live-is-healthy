@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "react-native-fitness-app",
-    "slug": "react-native-fitness-app",
+    "name": "my-live-is-healthy-app",
+    "slug": "my-live-is-healthy-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

@@ -1,5 +1,3 @@
-<div>
-  
 
 ## Get Started
 Instalar dependências de desenvolvimento

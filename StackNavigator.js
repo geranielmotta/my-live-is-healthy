@@ -5,6 +5,8 @@ import HomeScreen from './screens/Home';
 
 import FoodTips from './screens/FoodTips';
 
+import MyResults from './screens/MyResults';
+
 import HomeWorkoutsScreen from './screens/Workouts';
 import WorkoutScreen from './screens/Workouts/WorkoutScreen';
 import FitScreen from './screens/Workouts/FitScreen';
@@ -19,6 +21,8 @@ const StackNavigator = () => {
       <Stack.Screen options={{headerShown: false}} name="Home" component={HomeScreen} />
 
       <Stack.Screen options={{headerShown: false}} name="FoodTips" component={FoodTips} />
+
+      <Stack.Screen options={{headerShown: false}} name="MyResults" component={MyResults} />
 
       {/* Workouts */}
         <Stack.Screen options={{headerShown: false}} name="HomeWorkouts" component={HomeWorkoutsScreen} />
