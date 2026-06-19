@@ -1,3 +1,5 @@
+# My Life is Healthy 🌿
+Aplicativo mobile de saúde e bem-estar desenvolvido com React Native e Expo.
 
 ## Get Started
 Instalar dependências de desenvolvimento
