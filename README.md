@@ -8,7 +8,7 @@ Instalar dependências de desenvolvimento
 
 ## Then
 
-Execute o aplicativo
+## Executando o projeto
 
 ### `npm start`
 
